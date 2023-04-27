@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body{
+
+    margin: 0%;
+}
+
+header{
+    
+    backdrop-filter: blur(5px);
+    
+}
+
+.wrapper{
+
+    display:flex;
+    text-decoration: none;
+}
+
+.logo-image{
+
+    width: 3.5rem;
+    height: 3.5rem;
+
+}
+
+.welcometext-div{
+
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.logo-image:hover{
+
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
+
+.r-text{
+
+    font-size: .7rem;
+    font-family: sans-serif;
+    margin-top: -2rem;
+    margin-left: -.8rem;
+}
+
+.chickbuck-text{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#ed2027;
+    margin-left: .5rem;
+    margin-top: .4rem;
+}
+
+.nav-link{
+
+    font-weight: 500;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+appearance: none;
+}
+
+.number-input {
+ 
+  display: inline-flex;
+  height: 1rem;
+  
+}
+
+.number-input button {
+  outline:none;
+  font-size: .5rem;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  margin: 0;
+  border-width: thin;
+  border-color: #212121;
+  position: relative;
+}
+
+.number-input button:hover{
+
+    transform: scale(1.1);
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 1rem;
+  height: 2px;
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  font-family: sans-serif;
+  width: 3rem;
+  font-size: 1rem;
+  height: 1rem;
+  font-weight: 500;
+  text-align: center;
+  outline: none;
+  border: none;
+
+}
+
+.broasted-image{
+
+    width:100%;
+   
+}
+
+.welcome-text{
+
+    font-weight: 400;
+}
+
+.crunchy-text{
+
+    font-family: 'Alkatra', cursive;
+    font-weight: 600;
+    color:#ee9a3a ;
+}
+
+.carousel{
+
+    width: 20rem;
+    margin:auto;
+   
+   
+}
+
+.carousel-inner{
+
+    width: auto;
+}
+
+.carousel-item {
+  transition: transform .5s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 1s .2s;
+}
+
+
+.carousel-indicators{
+    
+    position:absolute;
+    
+}
+
+.carousel-caption{
+    
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.carousel-caption:hover{
+
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.hotdeals-text{
+
+    text-align: center;
+    color: #ed2027;
+
+}
+
+.bi-alarm{
+
+    color: #ed2027;
+}
+
+
+
+.carousel .item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    top: auto;
+    bottom: 0;
+    font-size: .8rem;
+}
+
+.itemname1-text{
+
+    font-weight: 700;
+    color: #e81b3d;
+
+}
+
+.itemprice-text{
+
+    color: #f3a32a;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.strikedprice-text{
+
+    font-weight: 700;
+    color: black;
+}
+
+.itemname-text{
+
+    font-weight: 700;
+    color:#ed2027;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e81b3d;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
+.buttons-div{
+
+    width: 100%;
+    text-align: center;
+}
+
+.ordernow-button{
+
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-width: thin;
+    width: 8rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+    
+}   
+
+.ordernow-button:hover{
+    
+    border-radius: .5rem;
+    transition: .4s ease-in-out;
+}
+
+.itemnamehead-text{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color:black;
+}
+
+.material-symbols-outlined{
+
+    font-size: 2rem;
+    color: #e81b3d;
+}
+
+.meatname-text{
+
+   font-size: 3rem;
+   color: #000000;
+}
+
+.meat-image{
+
+    width: 3vw;
+}
